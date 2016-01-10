@@ -1,0 +1,9 @@
+.wrapper {
+    margin-bottom: 10px;
+}
+
+.queryInput {
+    width: 100%;
+    font-size: 18px;
+    padding: 3px 0;
+}

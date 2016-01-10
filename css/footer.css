@@ -1,0 +1,3 @@
+.authorLink {
+    composes: link from './css/base.css';
+}
