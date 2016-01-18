@@ -1,4 +1,5 @@
 [
+  "posthtml-alt-always",
   "posthtml-aria-tabs",
   "posthtml-attrs-parser",
   "posthtml-bem",
