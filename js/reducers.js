@@ -1,4 +1,25 @@
-const allPlugins = require('./config/plugins');
+function sortByShortName(a, b) {
+    a = a.shortName;
+    b = b.shortName;
+
+    // A -> Z
+    if (a > b) {
+        return 1;
+    } else if (a < b) {
+        return -1;
+    } else {
+        return 0;
+    }
+}
+
+
+const allPlugins = require('./config/plugins')
+    .map(plugin => {
+        plugin.shortName = plugin.name.replace('posthtml-', '');
+        return plugin;
+    })
+    .sort(sortByShortName);
+
 
 const initialState = {
     searchQuery: '',

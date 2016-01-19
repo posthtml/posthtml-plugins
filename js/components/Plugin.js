@@ -5,12 +5,10 @@ class Plugin extends React.Component {
     render() {
         const { plugin } = this.props;
 
-        const shortName = plugin.name.replace('posthtml-', '');
-
         return (
             <li className={localCss.wrapper}>
                 <span className={localCss.name}>
-                    <a href={plugin.url} className={localCss.link}>{shortName}</a>
+                    <a href={plugin.url} className={localCss.link}>{plugin.shortName}</a>
                 </span>
                 <span className={localCss.description}>{plugin.description}</span>
             </li>
