@@ -33,6 +33,10 @@ body {
     }
 }
 
+.headingLink {
+    composes: link;
+}
+
 .addLink {
     composes: link;
     white-space: nowrap;
