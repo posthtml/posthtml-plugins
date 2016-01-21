@@ -9,6 +9,7 @@
   "posthtml-collect-inline-styles",
   "posthtml-custom-elements",
   "posthtml-doctype",
+  "posthtml-each",
   "posthtml-extend",
   "posthtml-extend-attrs",
   "posthtml-head-elements",
