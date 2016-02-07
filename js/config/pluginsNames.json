@@ -5,6 +5,7 @@
   "posthtml-attrs-parser",
   "posthtml-attrs-sorter",
   "posthtml-bem",
+  "posthtml-css-modules",
   "posthtml-classes",
   "posthtml-collect-inline-styles",
   "posthtml-custom-elements",
