@@ -17,5 +17,5 @@
 
 
 .link {
-    composes: link from './css/base.css';
+    composes: link from './base.css';
 }
