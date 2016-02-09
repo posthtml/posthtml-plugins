@@ -5,6 +5,7 @@
   "posthtml-attrs-parser",
   "posthtml-attrs-sorter",
   "posthtml-bem",
+  "posthtml-block",
   "posthtml-css-modules",
   "posthtml-classes",
   "posthtml-collect-inline-styles",
@@ -21,6 +22,7 @@
   "posthtml-lorem",
   "posthtml-match-helper",
   "posthtml-md",
+  "posthtml-minifier",
   "posthtml-modular-css",
   "posthtml-parser",
   "posthtml-postcss",
@@ -29,9 +31,12 @@
   "posthtml-render",
   "posthtml-retext",
   "posthtml-schemas",
+  "posthtml-shorten",
   "posthtml-static-react",
   "posthtml-style-to-file",
   "posthtml-textr",
   "posthtml-transformer",
-  "posthtml-web-component"
+  "posthtml-uglify",
+  "posthtml-web-component",
+  "posthtml-when"
 ]
