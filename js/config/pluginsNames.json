@@ -4,6 +4,7 @@
   "posthtml-aria-tabs",
   "posthtml-attrs-parser",
   "posthtml-attrs-sorter",
+  "posthtml-auto-class",
   "posthtml-bem",
   "posthtml-block",
   "posthtml-css-modules",
