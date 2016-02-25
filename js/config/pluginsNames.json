@@ -13,6 +13,7 @@
   "posthtml-custom-elements",
   "posthtml-doctype",
   "posthtml-each",
+  "posthtml-exp",
   "posthtml-extend",
   "posthtml-extend-attrs",
   "posthtml-head-elements",
