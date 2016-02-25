@@ -12,7 +12,7 @@
     "build": "export NODE_ENV=production && cd node_modules/.bin/ && ./gulp fetchPlugins && ./gulp css && ./gulp browserify && ./gulp templates"
   },
   "dependencies": {
-    "http-server": "^0.8.5"
+    "http-server": "^0.9.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.2.3",
@@ -25,7 +25,7 @@
     "bluebird": "^3.1.1",
     "browserify": "^13.0.0",
     "eslint": "^2.1.0",
-    "eslint-plugin-react": "^3.14.0",
+    "eslint-plugin-react": "^4.0.0",
     "gulp": "^3.9.0",
     "gulp-add-src": "^0.2.0",
     "gulp-concat": "^2.6.0",
