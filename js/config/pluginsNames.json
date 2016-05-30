@@ -40,5 +40,9 @@
   "posthtml-transformer",
   "posthtml-uglify",
   "posthtml-web-component",
-  "posthtml-when"
+  "posthtml-when",
+  "posthtml-modules",
+  "posthtml-postcss-modules",
+  "posthtml-collect-styles",
+  "posthtml-remove-duplicates"
 ]
