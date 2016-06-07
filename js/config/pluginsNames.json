@@ -6,6 +6,7 @@
   "posthtml-attrs-sorter",
   "posthtml-auto-class",
   "posthtml-bem",
+  "posthtml-bem-sugar",
   "posthtml-block",
   "posthtml-css-modules",
   "posthtml-classes",
