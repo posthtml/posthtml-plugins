@@ -30,6 +30,7 @@
   "posthtml-match-helper",
   "posthtml-md",
   "posthtml-minifier",
+  "posthtml-minify-classnames",
   "posthtml-modular-css",
   "posthtml-parser",
   "posthtml-postcss",
