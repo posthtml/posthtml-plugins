@@ -36,6 +36,7 @@
   "posthtml-postcss",
   "posthtml-prefix-class",
   "posthtml-preset-html",
+  "posthtml-pseudo",
   "posthtml-px2rem",
   "posthtml-remove-tags",
   "posthtml-render",
