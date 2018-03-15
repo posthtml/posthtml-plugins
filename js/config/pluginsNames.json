@@ -57,5 +57,6 @@
   "posthtml-modules",
   "posthtml-postcss-modules",
   "posthtml-collect-styles",
-  "posthtml-remove-duplicates"
+  "posthtml-remove-duplicates",
+  "posthtml-class-to-css-module"
 ]
