@@ -15,6 +15,7 @@
   "posthtml-color-shorthand-hex-to-six-digit",
   "posthtml-content",
   "posthtml-custom-elements",
+  "posthtml-custom-elements-defouc",
   "posthtml-doctype",
   "posthtml-each",
   "posthtml-email-remove-unused-css",
