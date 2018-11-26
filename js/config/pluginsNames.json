@@ -16,6 +16,7 @@
   "posthtml-color-shorthand-hex-to-six-digit",
   "posthtml-content",
   "posthtml-css-modules",
+  "posthtml-custom-elements-defouc",
   "posthtml-custom-elements",
   "posthtml-doctype",
   "posthtml-each",
