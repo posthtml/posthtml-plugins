@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PostHTML Plugins Catalog</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/img/posthtml.png">
+    <meta property="og:description" content="PostHTML Plugins Catalog">
+    <meta property="og:url" content="http://posthtml.github.io/posthtml-plugins">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <style>{{{css}}}</style>
+</head>
+<body>
+    <div class="base_wrapper">
+        <div class="base_headingWrapper">
+            <h1 class="base_heading">
+                <a href="https://github.com/posthtml/posthtml" class="base_headingLink base_link">PostHTML</a> Plugins Catalog
+            </h1>
+            <a href="https://github.com/posthtml/posthtml-plugins#how-to-add-a-plugin" class="base_addLink base_link">add plugin</a>
+            <iframe src="https://ghbtns.com/github-btn.html?user=posthtml&amp;repo=posthtml-plugins&amp;type=star&amp;count=true" frameborder="0" scrolling="0" class="base_githubWidget"></iframe>
+        </div>
+
+        <section id="app">
+            <div class="SearchForm_wrapper">
+                <input id="searchInput" type="search" tabindex="1" placeholder="Search" class="SearchForm_queryInput" value="" autofocus>
+            </div>
+
+            <ul class="PluginsList_wrapper">
+                {{#plugins}}
+                <li class="Plugin_wrapper">
+                    <span class="Plugin_name">
+                        <a href="{{{url}}}" class="Plugin_link base_link">{{shortName}}</a>
+                    </span>
+                    <span class="Plugin_description">{{description}}</span>
+                </li>
+                {{/plugins}}
+            </ul>
+        </section>
+
+        <footer>
+            Created by <a href="http://kirillmaltsev.net" class="footer_authorLink base_link">Kirill Maltsev</a>
+        </footer>
+    </div>
+
+    <script>(function () { {{{js}}} })()</script>
+</body>
+</html>

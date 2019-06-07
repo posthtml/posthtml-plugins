@@ -36,7 +36,5 @@ node_modules
 .node_repl_history
 
 
-
 # Custom
-/js/config/css.json
-/js/config/plugins.json
+/src/plugins.json
