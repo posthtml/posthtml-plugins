@@ -25,6 +25,7 @@
   "posthtml-extend",
   "posthtml-extend-attrs",
   "posthtml-head-elements",
+  "posthtml-highlight",
   "posthtml-img-autosize",
   "posthtml-include",
   "posthtml-inline-assets",
