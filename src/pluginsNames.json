@@ -30,6 +30,7 @@
   "posthtml-include",
   "posthtml-inline-assets",
   "posthtml-inline-css",
+  "posthtml-insert-at",
   "posthtml-jspm-config-generator",
   "posthtml-load-plugins",
   "posthtml-lorem",
