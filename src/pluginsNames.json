@@ -41,6 +41,7 @@
   "posthtml-minify-classnames",
   "posthtml-modular-css",
   "posthtml-modules",
+  "posthtml-noopener",
   "posthtml-parser",
   "posthtml-postcss",
   "posthtml-postcss-modules",
