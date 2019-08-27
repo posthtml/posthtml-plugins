@@ -24,6 +24,7 @@
   "posthtml-exp",
   "posthtml-extend",
   "posthtml-extend-attrs",
+  "posthtml-hash",
   "posthtml-head-elements",
   "posthtml-highlight",
   "posthtml-img-autosize",
