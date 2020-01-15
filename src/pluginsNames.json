@@ -32,6 +32,7 @@
   "posthtml-inline-assets",
   "posthtml-inline-favicon",
   "posthtml-inline-css",
+  "posthtml-inline-svg",
   "posthtml-insert-at",
   "posthtml-jspm-config-generator",
   "posthtml-load-plugins",
