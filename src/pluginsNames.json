@@ -47,6 +47,8 @@
   "posthtml-noopener",
   "posthtml-noscript",
   "posthtml-parser",
+  "posthtml-plugin-link-preload",
+  "posthtml-plugin-remove-duplicates",
   "posthtml-postcss",
   "posthtml-postcss-modules",
   "posthtml-prefix-class",
