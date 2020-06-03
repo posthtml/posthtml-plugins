@@ -59,6 +59,7 @@
   "posthtml-remove-tags",
   "posthtml-render",
   "posthtml-retext",
+  "posthtml-richtypo",
   "posthtml-schemas",
   "posthtml-shorten",
   "posthtml-standard",
