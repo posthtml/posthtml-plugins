@@ -68,6 +68,7 @@
   "posthtml-style-to-file",
   "posthtml-sugar-srcset",
   "posthtml-textr",
+  "posthtml-toc",
   "posthtml-transformer",
   "posthtml-uglify",
   "posthtml-web-component",
