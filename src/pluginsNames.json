@@ -62,6 +62,7 @@
   "posthtml-richtypo",
   "posthtml-schemas",
   "posthtml-shorten",
+  "posthtml-sri",
   "posthtml-standard",
   "posthtml-static-react",
   "posthtml-style-expansion",
