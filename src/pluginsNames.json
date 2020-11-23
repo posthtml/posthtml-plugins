@@ -73,5 +73,6 @@
   "posthtml-transformer",
   "posthtml-uglify",
   "posthtml-web-component",
-  "posthtml-when"
+  "posthtml-when",
+  "posthtml-external-link"
 ]
