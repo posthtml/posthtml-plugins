@@ -58,6 +58,7 @@
   "posthtml-remove-duplicates",
   "posthtml-remove-tags",
   "posthtml-render",
+  "posthtml-retag",
   "posthtml-retext",
   "posthtml-richtypo",
   "posthtml-schemas",
