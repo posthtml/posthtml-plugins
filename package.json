@@ -9,7 +9,7 @@
     "build": "gulp fetchPlugins && gulp"
   },
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^14.1.1"
   },
   "devDependencies": {
     "csso": "^4.0.3",
