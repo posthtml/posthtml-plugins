@@ -24,6 +24,7 @@
   "posthtml-exp",
   "posthtml-extend",
   "posthtml-extend-attrs",
+  "posthtml-external-link-target-blank",
   "posthtml-hash",
   "posthtml-head-elements",
   "posthtml-highlight",
