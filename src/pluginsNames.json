@@ -60,6 +60,7 @@
   "posthtml-render",
   "posthtml-retag",
   "posthtml-retext",
+  "posthtml-retinate",
   "posthtml-richtypo",
   "posthtml-schemas",
   "posthtml-shorten",
