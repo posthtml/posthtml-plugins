@@ -38,7 +38,6 @@
   "posthtml-jspm-config-generator",
   "posthtml-load-plugins",
   "posthtml-lorem",
-  "posthtml-markdown",
   "posthtml-match-helper",
   "posthtml-md",
   "posthtml-minifier",
