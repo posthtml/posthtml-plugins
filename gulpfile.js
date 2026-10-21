@@ -47,10 +47,6 @@ gulp.task('fetchPlugins', function () {
             console.log('');
             const pluginsList = Object.values(plugins);
             fs.writeFileSync('./src/plugins.json', JSON.stringify(pluginsList));
-        })
-        .catch(function (error) {
-            console.error(error);
-            process.exit(1);
         });
 });
 
@@ -97,7 +93,13 @@ function getPackageJson(packageName) {
             } else if (stderr) {
                 reject(stderr);
             } else {
-                resolve(JSON.parse(stdout));
+                try {
+                    const result = JSON.parse(stdout);
+                    // npm can wrap a single package's metadata in an array.
+                    resolve(Array.isArray(result) ? result[0] : result);
+                } catch (parseError) {
+                    reject(parseError);
+                }
             }
         });
     });
